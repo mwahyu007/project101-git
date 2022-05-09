@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy from input to output V2",
+				"name": "Copy from input to output",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
