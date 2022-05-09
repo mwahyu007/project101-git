@@ -251,22 +251,6 @@
 						"typeProperties": {
 							"waitTimeInSeconds": 15
 						}
-					},
-					{
-						"name": "Wait1",
-						"type": "Wait",
-						"dependsOn": [
-							{
-								"activity": "Copy from input to output",
-								"dependencyConditions": [
-									"Succeeded"
-								]
-							}
-						],
-						"userProperties": [],
-						"typeProperties": {
-							"waitTimeInSeconds": 1
-						}
 					}
 				],
 				"policy": {
