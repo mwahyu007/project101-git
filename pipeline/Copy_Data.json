@@ -73,6 +73,10 @@
 				"dependsOn": [],
 				"userProperties": [],
 				"typeProperties": {
+					"dataset": {
+						"referenceName": "DS_input",
+						"type": "DatasetReference"
+					},
 					"timeout": "7.00:00:00",
 					"sleep": 10
 				}
