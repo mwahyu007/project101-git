@@ -3,11 +3,11 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy from input to output",
+				"name": "Copy from input to output V2",
 				"type": "Copy",
 				"dependsOn": [
 					{
-						"activity": "Check Input File",
+						"activity": "Validation1",
 						"dependencyConditions": [
 							"Succeeded"
 						]
@@ -68,7 +68,7 @@
 				]
 			},
 			{
-				"name": "Check Input File",
+				"name": "Validation1",
 				"type": "Validation",
 				"dependsOn": [
 					{
